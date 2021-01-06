@@ -1,7 +1,7 @@
 <?php
 try // ici je me connecte a la base 
-{ 
-  $bdd = new pdo('mysql:host=localhost;port=3308;dbname=gestion_mobilite;charset=utf8', 'yaya', 'tse2020'); 
+{
+    $bdd = new PDO('mysql:host=localhost;port=3308;dbname=gestion_mobilite;charset=utf8', 'root', '');
 
 } catch(exception $e) 
 { 
